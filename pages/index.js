@@ -23,11 +23,6 @@ export default class Index extends React.Component {
         return { agencies: data }
       })
 
-  // static async getInitialProps(){
-    // const response = await fetch('https://jsonplaceholder.typicode.com/posts')
-    // const agencies = await response.json()
-    // return {agencies: agencies}
-  // }
   render() {
     const agencies = this.props.agencies
     return <Layout>
